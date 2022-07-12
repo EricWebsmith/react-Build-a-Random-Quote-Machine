@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: #664b92;
+}
+
+.Quote {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  min-height: 180px;
+  padding: 30px;
+  background: #333;
+  border-radius: 4px;
+  box-shadow: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+p {
+  color: white;
+  font-size: 17px;
+}
+
+button {
+  border: none;
+  outline: none;
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn {
+  background: #6b68ff;
+  color: white;
+  padding: 7px 0;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
