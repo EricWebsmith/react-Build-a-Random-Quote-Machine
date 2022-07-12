@@ -1,7 +1,7 @@
 import { Component, useState } from "react";
 
 const Quote = () => {
-    const [quote, setQuote] = useState('An apple a day, keeps with doctor away.');
+    const [quote, setQuote] = useState('An apple a day, keeps the doctor away.');
 
     const getQuotes = () => {
         fetch('https://type.fit/api/quotes')
